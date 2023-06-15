@@ -135,7 +135,9 @@ select:-webkit-autofill:focus {
   padding-top: 48px;
   padding-bottom: 48px;
 }
-
+.main-content-inner{
+  padding-top: 80px;
+}
 /* site header */
 .site-header {
   padding-top: 24px;
@@ -284,17 +286,132 @@ select:-webkit-autofill:focus {
   margin-left: 4px;
 }
 
+/* country page */
+.country-page-back-wrapper {
+  margin-bottom: 80px;
+}
+
+.country-page-back-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 40px;
+  border-radius: 6px;
+  background-color: var(--element-bg);
+  color: var(--text-color);
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+  
+}
+.country-page-back-link:hover{
+  opacity: 0.8;
+}
+.country-page-back-link:active {
+  opacity: 0.8;
+}
+.country-page-back-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.country-page-back-text {
+  font-size: 16px;
+  line-height: 20px;
+}
 
 
+/* page-flag */
+.country-page-flag-info{
+  display: flex;
+}
+.country-page-flag{
+  width: 560px;
+  height: 400px;
+  margin-right: 120px;
+  object-fit: cover;
+  box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+}
 
+.country-page-info {
+  width: 600px;
+  padding-top: 40px;
+}
 
+.country-page-title {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 800;
+}
 
+.country-page-dls-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
 
+.country-page-details {
+  width: 250px;
+}
+.country-page-details-item{
+  display: flex;
+}
+.country-page-details-item:not(:last-child) {
+  margin-bottom: 12px;
+}
 
+.country-page-details-title {
+  margin-right: 4px;
+  font-weight: 600;
+}
 
+.country-page-details-value {
+  margin: 0;
+  font-weight: 300;
+}
+.country-page-border-countries {
+  display: flex;
+  align-items: center;
+}
 
+.country-border-countries-heading {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 15px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
 
+.country-page-border-countries-list {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.country-page-border-country-link {
+  min-width: 96px;
+  padding: 5px 10px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-radius: 2px;
+  background-color: var(--element-bg);
+  color: var(--text-color);
+  text-align: center;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.11);
+  transition: background-color 0.4s ease, color 0.4s ease;
+    
+}
+
+.country-page-border-country-link:not(:last-child){
+  margin-right: 10px;
+}
+.country-page-border-country-link:hover{
+  opacity: 0.8;
+}
+.country-page-border-country-link:active {
+  opacity: 0.6;
+}
 
 
 
